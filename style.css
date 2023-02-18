@@ -1,0 +1,41 @@
+body {
+	background-color: #181818;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#hero {
+	background-image: url("https://i.imgur.com/kbSHio2.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#hero h2 {
+	font-size: 48px;
+	margin-bottom: 
