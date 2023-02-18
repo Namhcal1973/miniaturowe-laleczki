@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neon City</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Neon City</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="hero">
+			<h2>Enter the neon world</h2>
+			<p>Welcome to Neon City, a place of bright lights, endless energy, and unbridled creativity. Explore our city and find your place in the future.</p>
+			<a href="#" class="button">Learn More</a>
+		</section>
+		<section id="services">
+			<h2>Our Services</h2>
+			<div class="service">
+				<h3>Hacking</h3>
+				<p>Our team of expert hackers can help you navigate the complex digital world and achieve your goals.</p>
+			</div>
+			<div class="service">
+				<h3>Cybersecurity</h3>
+				<p>Protect yourself and your business from cyber threats with our cutting-edge security services.</p>
+			</div>
+			<div class="service">
+				<h3>Virtual Reality</h3>
+				<p>Experience new worlds and immersive environments with our VR technology.</p>
+			</div>
+		</section>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>Neon City was founded in 2050 with a vision of creating a better, brighter future through technology. Today, we are a leading provider of digital solutions for businesses and individuals alike.</p>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email">
+				<label for="message">Message</label>
+				<textarea id="message" name="message"></textarea>
+				<button type="submit">Send</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2077 Neon City. All rights reserved.</p>
+	</footer>
+</body>
+</html>
+
